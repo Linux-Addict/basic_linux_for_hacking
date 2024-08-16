@@ -1,14 +1,14 @@
 # Pull Request are welcome
 
 
-we are very thanks that you wanna pull request on xaviera project
+we are very thanks that you wanna pull request on basic Linux for hacking project
 
 ## before pull request
 
 - fork this repository
 - and clone fork repository by
     ```
-    git clone https://github.com/your_username/xaviera
+    git clone https://https://github.com/yusuf601/basic_linux_for_hacking/
     ```
 - create a new branch
     ```
