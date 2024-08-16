@@ -10,3 +10,11 @@
 - Advanced Automation Scripting
 
 Let's dive in and explore the power of Bash!</div>
+## pre requirements
+**Instalation Kali Linux In Vm**
+*Unduh file Iso Linux*
+![Instalion_kali](Assets/install/unduh.png)
+<!-- <img src="Assets/install/unduh.png" alt="Alt text" width="200" height="100"> -->
+
+*Buka Virtual box*
+![vm](Assets/install/buat_Vm.png)
