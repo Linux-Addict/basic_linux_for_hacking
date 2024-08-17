@@ -1,6 +1,6 @@
 <body>
 <p align="center">
-  <img src="Assets/Linux.jpg" alt="bash logo"/>
+  <img src="Assets/Linux.jpg" alt="bash logo" width="200" height="150"/>
 </p>
 <div>This comprehensive guide provides an introduction to Bash scripting and command-line operations. Whether you're a beginner or an experienced user, this guide offers valuable insights into Bash syntax, shell programming, and useful tricks to enhance your command-line productivity.
 
