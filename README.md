@@ -110,6 +110,46 @@ whoami
 ```
 *If you’ve forgotten whether you’re logged in as root or another user, you can use the
 "whoami" command to see which user you’re logged in as*
-
+**Navigating the Linux Filesystem**
+*Changing Directories with cd*
+```bash
+kali >cd/etc
+root@kali:/etc#
+```
+*The prompt changes to root@kali:/etc, indicating that we’re in the /etc directory. We can
+confirm this by entering pwd:*
+```bash
+root@kali:/etc# p
+wd
+/etc
+```
+*To move up one level in the file structure (toward the root of the file structure, or /), we
+use cdfollowed by double dots (..), as shown here:*
+```bash
+root@kali:/etc# c
+d..
+root@kali:/# pw
+d
+/
+root@kali:/#
+```
+**Listing the Contents of a Directory with ls**
+```bash
+kali >l
+s
+bin initrd.img
+media
+runvar
+boot initrd.img.old mntsbinvmlinuz
+dev liboptsrvvmlinuz.old
+etc lib64proctmp
+home lost+found
+root
+usr
+```
+*This command lists both the files and directories contained in the directory. You can
+also use this command on any particular directory, not just the one you are currently in,
+by listing the directory name after the command; for example, ls/etcshows what’s in
+the /etc directory.*
 
 
