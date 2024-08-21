@@ -95,14 +95,21 @@ often referred to as the root of the filesystem, as if it were an upside­down t
 ## Basic Command In Linux
 **Finding Yourself with pwd**
 *Enter "pwd" in your terminal to see where you are:*
-![pwd](Assets/command/pwd.png)
+<!-- ![pwd](Assets/command/pwd.png) -->
+```bash
+pwd
+```
 *In this case, Linux returned /root, telling me I’m in the root user’s directory. And
 because you logged in as root when you started Linux, you should be in the root user’s
 directory, too, which is one level below the top of the filesystem structure (/).*
 
 **Checking Your Login with whoami**
-![whoami](Assets/command/whoami.png)
+<!-- ![whoami](Assets/command/whoami.png) -->
+```bash
+whoami
+```
 *If you’ve forgotten whether you’re logged in as root or another user, you can use the
 "whoami" command to see which user you’re logged in as*
+
 
 
