@@ -157,12 +157,42 @@ also use this command on any particular directory, not just the one you are curr
 by listing the directory name after the command; for example, ls/etcshows what’s in
 the /etc directory.*
 
-
 *If you’ve forgotten whether you’re logged in as root or another user, you can use the
 "whoami" command to see which user you’re logged in as*
 
 *if you in see hidden files you can try command*
-``bash
+```bash
 ls-la
 ```
+
 ![ls-la](Assets/command/ls-la.png)
+
+**Getting Help**
+
+*Nearly every command, application, or utility has a dedicated help file in Linux thatprovides guidance for its use.*
+```bash
+kali >aircrack-ng --help
+```
+*Note the double dash here. The convention in Linux is to use a double dash (--) before
+word options, such as help, and a single dash (-) before single­letter options, such as –h.*
+
+*When you enter this command, you should see a short description of the tool and
+guidance on how to use it. In some cases, you can use either -hor -?to get to the help
+file. For instance, if I needed help using the hacker’s best port­scanning tool, nmap, I would enter the following:*
+
+```bash
+kali >nmap-h
+```
+
+**Referencing Manual Pages with man**
+
+*In addition to the help switch, most commands and applications have a manual (man)
+page with more information, such as a description and synopsis of the command or
+application. You can view a man page by simply typing manbefore the command, utility,
+or application. To see the man page for aircrack­ng, for example, you would enter the
+following:*
+```bash
+man aircrack-ng
+```
+![man](Assets/command/man.png)
+
