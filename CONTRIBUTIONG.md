@@ -30,4 +30,5 @@ we are very thanks that you wanna pull request on basic Linux for hacking projec
         git push origin your_branch_name
         ```
 
-- create a pull request on main project
+- Create a pull request: On GitHub, navigate to your forked repository and click on "Pull requests". Click "New pull request" and select the branch containing your changes.
+- Review and merge: We will review your pull request and provide feedback. Once approved, we can merge your changes into the main repository.
