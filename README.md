@@ -1,4 +1,4 @@
-<body>
+
 <p align="center">
   <img src="Assets/Leonardo_Phoenix_In_a_dimly_lit_sparse_room_a_penguin_resembli_3.jpg" alt="bash logo" width="300" height="300"/>
 </p>
@@ -161,4 +161,8 @@ the /etc directory.*
 *If you’ve forgotten whether you’re logged in as root or another user, you can use the
 "whoami" command to see which user you’re logged in as*
 
-
+*if you in see hidden files you can try command*
+``bash
+ls-la
+```
+![ls-la](Assets/command/ls-la.png)
