@@ -157,12 +157,12 @@ also use this command on any particular directory, not just the one you are curr
 by listing the directory name after the command; for example, ls/etcshows what’s in
 the /etc directory.*
 
-
 *If you’ve forgotten whether you’re logged in as root or another user, you can use the
 "whoami" command to see which user you’re logged in as*
 
 *if you in see hidden files you can try command*
-``bash
+```bash
 ls-la
 ```
+
 ![ls-la](Assets/command/ls-la.png)
