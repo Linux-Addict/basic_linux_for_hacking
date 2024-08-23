@@ -17,6 +17,8 @@ on:
     types:
       - completed
   status: {}
+  workflow_dispatch: # Ini memungkinkan workflow dijalankan secara manual
+
 jobs:
   automerge:
     runs-on: ubuntu-latest
