@@ -227,4 +227,12 @@ aircarck­ng: /usr/bin/aircarck­ng /usr/share/man/man1/aircarck­ng.1.gz
 you think?*
 
 - Finding Binaries in the PATH Variable with which
+```bash
+kali >which aircrack-ng
+/usr/bin/aircrack­ng
+```
+*Here, whichwas able to find a single binary file in the directories listed in the PATH
+variable. At minimum, these directories usually include /usr/bin, but may include
+/usr/sbin and maybe a few others.*
+
 
