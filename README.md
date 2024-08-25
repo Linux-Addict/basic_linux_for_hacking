@@ -196,3 +196,35 @@ man aircrack-ng
 ```
 ![man](Assets/command/man.png)
 
+**Finding Stuff**
+*Until you become familiar with Linux, it can be frustrating to find your way around, but
+knowledge of a few basic commands and techniques will go a long way toward making
+the command line much friendlier. The following commands help you locate things
+from the terminal.*
+
+- *Searching with locate*
+*Probably the easiest command to use is locate. Followed by a keyword denoting what it is you want to find, this command will go through your entire filesystem and locate
+every occurrence of that word.*
+
+*To look for aircrack ­ng, for example, enter the following:*
+```bash
+kali >locate aircrack-ng
+/usr/bin/aircrack­ng
+/usr/share/applications/kali­aircrack­ng.desktop
+/usr/share/desktop­directories/05­1­01­aircrack­ng.directory
+­­snip­­
+/var/lib/dpkg/info/aircrack­ng.mg5sums
+```
+- *Finding Binaries with whereis*
+*If you’re looking for a binary file, you can use the whereiscommand to locate it. This command returns not only the location of the binary but also its source and man page if*
+*they are available. Here’s an example:*
+```bash
+kali >whereis aircrack-ng
+aircarck­ng: /usr/bin/aircarck­ng /usr/share/man/man1/aircarck­ng.1.gz
+```
+*In this case,whereis returned just the aircrack­ng binaries and man page, rather than*
+*every occurrence of the word aircrack­ng. Much more efficient and illuminating, don’t
+you think?*
+
+- Finding Binaries in the PATH Variable with which
+
