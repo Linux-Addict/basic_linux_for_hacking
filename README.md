@@ -235,4 +235,20 @@ kali >which aircrack-ng
 variable. At minimum, these directories usually include /usr/bin, but may include
 /usr/sbin and maybe a few others.*
 
-
+**Performing More Powerful Searches with find**
+*The find command is the most powerful and flexible of the searching utilities. It is
+capable of beginning your search in any designated directory and looking for a number of different parameters, including, of course, the filename but also the date of creation or modification, the owner, the group, permissions, and the size.*
+*Here’s the basic syntax for find:*
+```bash
+kali >find/➊ -typef➋ -nameapache2➌
+```
+*My results for this search are shown here:*
+```bash
+kali >find /-typef-nameapache2
+/usr/lib/apache2/mpm­itk/apache2
+/usr/lib/apache2/mpm­event/apache2
+/usr/lib/apache2/mpm­worker/apache2
+/usr/lib/apache2/mpm­prefork/apache2
+/etc/cron.daily/apache2
+```
+**Filtering with grep**
