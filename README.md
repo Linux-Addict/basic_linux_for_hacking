@@ -252,3 +252,29 @@ kali >find /-typef-nameapache2
 /etc/cron.daily/apache2
 ```
 **Filtering with grep**
+
+*The grep command is often used when output is piped from one command to another.for now, suffice it to say that Linux (and Windows for that matter) allows us to take the output of one command and send it as input to another command. This is called piping, and we use the |command to do it (the | key is usually above the ENTER key on your keyboard)*
+
+*The pscommand is used to display information about processes running on the
+machine. We cover this in more detail in Chapter 6, but for this example, suppose I
+want to see all the processes running on my Linux system. In this case, I can use the ps
+(processes) command followed by the auxswitches to specify which process information
+to display, like so:*
+```bash
+kali >ps aux
+```
+
+*This provides me with a listing of all the processes running in this system—but what if I just want to find one process to see if it is running?*
+
+*I can do this by piping the output from psto grepand searching for a keyword. For
+instance, to find out whether the apache2 service is running, I would enter the
+following.*
+```bash
+kali >ps aux|grep apache2
+root 4851 0.2 0.7 37548 7668 ? Ss 10:14 0:00 /usr/sbin/apache2 ­k start
+root 4906 0.0 0.4 37572 4228 ? S 10:14 0:00 /usr/sbin/apache2 ­k start
+root 4910 0.0 0.4 37572 4228 ? Ss 10:14 0:00 /usr/sbin/apache2 ­k start
+­­--snip--
+```
+
+**MODIFYING FILES AND DIRECTORIES**
