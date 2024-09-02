@@ -278,3 +278,19 @@ root 4910 0.0 0.4 37572 4228 ? Ss 10:14 0:00 /usr/sbin/apache2 ­k start
 ```
 
 **MODIFYING FILES AND DIRECTORIES**
+- Creating Files
+*if you want cretated file in terminal using command touch*
+*example:*
+```bash
+touch <your_name_file>
+```
+- Concatenation with cat
+*The catcommand followed by a filename will display the contents of that file, but to create a file*
+```bash
+cat <your_name_file>
+```
+- Creating a Directory
+*The command for creating a directory in Linux is mkdir, a contraction of make directory.To create a directory named newdirectory, enter the following command:*
+```bash
+mkdir <your_name_file>
+```
